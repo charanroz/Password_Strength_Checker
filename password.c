@@ -7,7 +7,7 @@ int main(void)
     char password[100];
     int length, has_lower = 0, has_upper = 0, has_number = 0, has_symbol = 0;
 
-    printf("Enter your password: ");
+    printf("Enter your password here: ");
     scanf("%s", password);
 
     length = strlen(password);
